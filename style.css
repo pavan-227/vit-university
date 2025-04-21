@@ -7,7 +7,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(170, 179, 219, 0.7)),url(images/VIT-Ap.webp);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(170, 179, 219, 0.7)),url(VIT-Ap.webp);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -281,7 +281,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(115, 112, 112, 0.7),rgba(49, 43, 43, 0.7)),url(images/online-course.avif);
+    background-image: linear-gradient(rgba(115, 112, 112, 0.7),rgba(49, 43, 43, 0.7)),url(online-course.avif);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -329,7 +329,7 @@ h3{
 .sub-header{
     height: 50vh;
     width:100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/Graduation-image.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Graduation-image.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
