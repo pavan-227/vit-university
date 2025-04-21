@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <head>
+        <title>VIT University</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    </head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>    
+        <!-- ----About us content------- -->
+    <section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the Andhra's <br> Largest University</h1>
+            <p>
+                VIT-AP University is a premier institution committed to academic excellence and holistic development.<br><br>
+                Established with the vision of creating a global learning environment, VIT-AP nurtures innovation, critical thinking, and leadership skills.<br><br>
+                Our state-of-the-art infrastructure, experienced faculty, and strong industry collaborations ensure that students are well-prepared to face real-world challenges.<br><br>
+                At VIT-AP, we strive to create not just graduates, but responsible citizens ready to make a meaningful impact in the world.
+            </p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <!-- <br>
+            <br>
+            <br> -->
+            <img src="images/Graduation-image.jpg">
+        </div>
+    </div>
+    </section>
+      <!-- -----------Footer----- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>VIT-AP University is a premier institution committed to academic excellence and holistic development. Established with the vision of creating a global learning environment, VIT-AP nurtures innovation, critical thinking, and leadership skills.<br> Our state-of-the-art infrastructure, experienced faculty, and strong industry collaborations ensure that students are well-prepared to face real-world challenges.At VIT-AP, we strive to create not just graduates, but responsible citizens ready to make a meaningful impact in the world.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>    
+        <div><p>Created by&nbsp;&nbsp;<i class="fa-regular fa-clock"></i>&nbsp;&nbsp;Pavan</i></p></div>
+    </section>
+    <!-- javaScript for toggle memu --> 
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>    
+</html>
